@@ -4,7 +4,7 @@ Final Assignment for CS50 2026
 Git Commands To Note
 
 Adding Commits:
-'''git add .'''
+```git add .```
 
 Staging File to Repo:
-'''git commit -m "First commit"'''
+```git commit -m "First commit"```
