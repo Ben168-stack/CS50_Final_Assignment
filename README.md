@@ -18,6 +18,14 @@ Final Assignment for CS50 2026
 
 ```git pull origin main```
 
+## Merging Dev Branch with Main (Please Check Carefully when merging)
+```
+git checkout main              # switch to main
+git pull origin main          # make sure it's up to date
+git merge development         # merge your dev branch into main
+git push origin main          # push updated main to remote
+```
+
 
 ## Git Commands To Note
 
@@ -28,6 +36,9 @@ Final Assignment for CS50 2026
 ### Staging File to Repo:
 
 ```git commit -m "First commit"```
+
+### Pushing Your Changes in Your Current Branch
+git push origin current_branch_name
 
 
 
