@@ -4,8 +4,13 @@ from flask_login import login_required, current_user
 # from . import db
 import json
 
+SUCCESS = "success"
+ERROR = "error"
+WARNING = "warning"
+
 
 views = Blueprint('views', __name__)
+
 
 @views.route('/', methods=['GET', 'POST'])
 @login_required

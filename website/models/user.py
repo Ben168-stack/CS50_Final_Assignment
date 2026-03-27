@@ -12,4 +12,3 @@ class User(db.Model, UserMixin):
     # already exist on the site
     password = db.Column(db.String(150))
     first_name = db.Column(db.String(150))
-    notes = db.relationship('Note')

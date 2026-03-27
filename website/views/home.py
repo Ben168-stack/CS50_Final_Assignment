@@ -2,6 +2,11 @@ from flask import Flask, Blueprint, render_template, request, flash, jsonify
 from flask_login import login_required, current_user
 # from . import db
 import json
+
+SUCCESS = "success"
+ERROR = "error"
+WARNING = "warning"
+
 user_views = Blueprint('user_views', __name__)
 
 @user_views.route('/')
