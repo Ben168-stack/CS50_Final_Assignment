@@ -26,6 +26,13 @@ git merge development         # merge your dev branch into main
 git push origin main          # push updated main to remote
 ```
 
+# Setting Up Virtual Environment
+```
+python -m venv venv
+venv/Scripts/activate
+
+```
+
 
 ## Git Commands To Note
 
@@ -38,7 +45,16 @@ git push origin main          # push updated main to remote
 ```git commit -m "First commit"```
 
 ### Pushing Your Changes in Your Current Branch
-git push origin current_branch_name
+```git push origin current_branch_name```
+
+### Installing Requirements.txt
+```pip install -r requirements.txt```
+
+### Update Requirements.txt
+``` pip freeze > requirements.txt ```
+
+### run website
+``` python main.py ```
 
 
 
